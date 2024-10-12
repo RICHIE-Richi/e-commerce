@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nostra</title>
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--style sheet-->
+    <link rel="stylesheet" href="index.css" />
+    <!--cdn link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1>Nostra</h1>
+
+      <div class="navbar-links">
+        <p class="navbar-links"><a href="index.html">Home</a></p>
+        <p class="navbar-links"><a href="collection.html">Collections</a></p>
+        <p class="navbar-links"><a href="contact.html">Contact</a></p>
+      </div>
+
+      <div class="navbar-menu-toggel">
+        <i class="fa-solid fa-bars" onclick="openNavbar()"></i>
+      </div>
+
+    </nav>
+
+    <!--side navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-links"><a href="index.html">Home</a></p>
+            <p class="side-navbar-links"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-links"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+
+    <!--products-->
+
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="products" id="products">
+            <div class="products-box">
+                <img src="https://i.pinimg.com/originals/9a/cf/62/9acf6277cd74cf1b05c06e8c8ae3d94e.jpg" style="height: 200px; width: 200px;">
+                <p>Baige t-shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://blog.daraz.pk/wp-content/uploads/2022/11/kk.png" style="height: 200px; width: 200px;">
+                <p>Black t-shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://i.pinimg.com/736x/a9/4c/bd/a94cbdd8a268a2f6b9875dcef42ab4a1.jpg" style="height: 200px; width: 200px;">
+                <p>white t-shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://th.bing.com/th/id/OIP.jq9a4mpsyaaai-rToa9w8AAAAA?w=469&h=535&rs=1&pid=ImgDetMain" style="height: 200px; width: 200px;">
+                <p>Green t-shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://i.pinimg.com/originals/9a/cf/62/9acf6277cd74cf1b05c06e8c8ae3d94e.jpg" style="height: 200px; width: 200px;">
+                <p>Baige t-shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://blog.daraz.pk/wp-content/uploads/2022/11/kk.png" style="height: 200px; width: 200px;">
+                <p>Black t-shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://i.pinimg.com/736x/a9/4c/bd/a94cbdd8a268a2f6b9875dcef42ab4a1.jpg" style="height: 200px; width: 200px;">
+                <p>white t-shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://th.bing.com/th/id/OIP.jq9a4mpsyaaai-rToa9w8AAAAA?w=469&h=535&rs=1&pid=ImgDetMain" style="height: 200px; width: 200px;">
+                <p>Green t-shirt</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Nostra</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <p>@2024 Nostra.com</p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
